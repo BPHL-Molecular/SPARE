@@ -1,4 +1,5 @@
-# SPARE
+<h1 align="center">SPARE</h1>
+
 **SP**ecies_**A**bundance_and_**R**eads_**E**xtraction (SPARE)
 SPARE is a tool to detect species abundance in a sequencing sample and extract reads in the sample based on taxonomy id. Illumina or PacBio sequencing data is acceptable to the tool. 
 
