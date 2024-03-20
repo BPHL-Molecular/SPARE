@@ -25,11 +25,11 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
 4. Run command:              
    If input is bam file, 
    ```bash
-   $sbatch spare bam
+   $sbatch spare.sh bam
    ```
    If input is fastq file,
    ```bash
-   $sbatch spare             
+   $sbatch spare.sh             
    ```
 ## How to extract reads
 If you want to extract reads after the above step of species abundance detection, you can run the other command:
