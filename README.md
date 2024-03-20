@@ -32,7 +32,7 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
    $sbatch spare.sh             
    ```
 ## How to extract reads
-If you want to extract reads after the above step of species abundance detection, you can run the other command:
+If you want to extract reads after the above step of species abundance detection, you can run the other command.   
 If data is single-end reads,
 ```bash
 $sbatch extract_reads.sh single <taxonomy_id> <full path of kraken.out> <full path of read file>
