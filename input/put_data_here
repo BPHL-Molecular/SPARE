@@ -1,0 +1,2 @@
+For Illumina sequencing, the data should be the paired-end, such as x_1.fastq.gz and x_2.fastq.gz.
+For PacBio sequencing, the data should be bam file and its index file, such as x.bam and x.bam.pbi.
