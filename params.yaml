@@ -1,0 +1,8 @@
+# Note1: The parameters are the absolute path. Do not include the "/" at the end of the paths.
+# Note2: For non-HiPerGator users, please change the path of db here to your real path to PlusPF database in your device.
+
+input          : "/<Full path to SPARE>/input"
+output    : "/<Full path to SPARE>/output"
+
+db    : "/blue/bphl-florida/share/kraken_bracken_database/PlusPF"
+
