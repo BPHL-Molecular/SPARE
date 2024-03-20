@@ -22,12 +22,12 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
    **input** : the full path to input dir of the pipeline in your computer. It looks like "/<full path to the pipeline dir in your computer>/input".     
    **output** : the full path to output dir of the pipeline in your computer. It looks like "/<full path to the pipeline dir in your computer>/output".
    **db** : the full path to kraken/bracken-database (PlusPF) in your computer. It looks like "/\<the full path to the parent dir of PlusPF foler in your computer\>/PlusPF". Its default setting is the path of PlusPF in HiPerGator cluster. For HiPerGator users, just keep default setting.     
-4. Run command:              
-   If input is bam file, 
+3. Run command:          
+   If input is bam file,     
    ```bash
    $sbatch spare.sh bam
    ```
-   If input is fastq file,
+   If input is fastq file,       
    ```bash
    $sbatch spare.sh             
    ```
