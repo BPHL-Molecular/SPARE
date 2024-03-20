@@ -15,9 +15,9 @@ Python3 and its package "biopython" are needed. The package installation can be 
 The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index (over 77 GB) from the link (https://benlangmead.github.io/aws-indexes/k2) to the "PlusPF" folder in your local computer. And then extract the tar.gz archive. For HiPerGator users, its downloading is not needed. It has been downloaded and configed in the pipeline.
 
 ## How to detect species abundances in samples 
-1. Put sequencing data in the folder "input".
-   For Illumina sequencing, the data should be the paired-end, such as x_1.fastq.gz and x_2.fastq.gz.
-   For PacBio sequencing, the data should be bam file and its index file, such as  x.bam and x.bam.pbi.    
+1. Put sequencing data in the folder "input".     
+   For Illumina sequencing, the data should be the paired-end, such as x_1.fastq.gz and x_2.fastq.gz.     
+   For PacBio sequencing, the data should be bam file and its index file, such as  x.bam and x.bam.pbi.         
 2. Open the file "params.yaml", set the full paths of the parameters.     
    **input** : the full path to input dir of the pipeline in your computer. It looks like "/<full path to the pipeline dir in your computer>/input".     
    **output** : the full path to output dir of the pipeline in your computer. It looks like "/<full path to the pipeline dir in your computer>/output".
