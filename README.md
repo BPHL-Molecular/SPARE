@@ -20,7 +20,7 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
    For PacBio sequencing, the data should be bam file and its index file, such as  x.bam and x.bam.pbi.              
 2. Open the file "params.yaml", set the full paths of the parameters.     
    **input** : the full path to input dir of the pipeline in your computer. It looks like "/\<full path to the pipeline dir in your computer\>/input".     
-   **output** : the full path to output dir of the pipeline in your computer. It looks like "/\<full path to the pipeline dir in your computer\>/output".
+   **output** : the full path to output dir of the pipeline in your computer. It looks like "/\<full path to the pipeline dir in your computer\>/output".       
    **db** : the full path to kraken/bracken-database (PlusPF) in your computer. It looks like "/\<the full path to the parent dir of PlusPF foler in your computer\>/PlusPF". Its default setting is the path of PlusPF in HiPerGator cluster. For HiPerGator users, just keep default setting.     
 3. Run command:          
    If input is bam file,     
